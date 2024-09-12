@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    
+    background-color: #eee0e0;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 30px;
+   
+}
+
+.gallery-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #e0e0e0, #6d3232);
+}
+
+.gallery-container img:hover {
+    transform: scale(1.20);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #d3d3d3, #a0a0a0);
+}

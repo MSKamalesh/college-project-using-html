@@ -1,0 +1,36 @@
+.footer {
+    padding: 30px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .achievements,
+.footer .sports,
+.footer .placements {
+    width: 20%;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.footer .ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+.footer .ul li {
+    margin-bottom: 10px;
+}
